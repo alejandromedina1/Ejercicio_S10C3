@@ -1,8 +1,10 @@
 class Prision{
+    //Constructor de las casillas//
     constructor(x, y){
         this.x=x;
         this.y=y;
     }
+    //Metodo para pintar casillas//
     printPrision(){
         fill(255);
         stroke(0);
@@ -13,9 +15,4 @@ class Prision{
         stroke(0);
         strokeWeight(1);
     }
-    isOver(px,py){
-        returtn
-    }
-
-
 }

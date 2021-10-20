@@ -1,9 +1,11 @@
 class Rectangulo{
+    //Constructor de los rectangulos//
     constructor(x, y, side){
         this.x=x;
         this.y=y;
         this.side=side;
     }
+    //Metodo para pintar rectangulos//
     drawRectangulo(){
         fill(0,0,255);
         noStroke();
@@ -12,10 +14,5 @@ class Rectangulo{
         rectMode(CORNER);
         stroke(1);
     }
-    selectedRectangulo(selected){
-        if ( this.x- this.side/2 < mouseX && mouseX < this.x+side/2 &&
-            this.y- this.side/2 < mouseY && mouseY < this.y+side/2) {
-            return this.selectedRectangulo=true;
-        }
-    }
+    
 }

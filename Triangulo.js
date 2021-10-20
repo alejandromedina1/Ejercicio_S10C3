@@ -1,8 +1,10 @@
 class Triangulo{
+    //Constructor del triangulo//
     constructor(x, y){
         this.x=x;
         this.y=y;
     }
+    //Metodo para pintar triangulos//
     drawTriangulo(){
         fill(0,255,0);
         noStroke();
